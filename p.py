@@ -13,7 +13,7 @@ def display_menu():
 def add_title():
     task_title = input ("enter the task title : ")
     tasks.append({"title":task_title, "status": "Incomplete"})
-    print("Task add successflly.")
+    print(f'Task "{task_title}" added successfully!')
 
 def view_tasks():
     if not tasks:
