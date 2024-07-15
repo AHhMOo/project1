@@ -59,6 +59,7 @@ while True:
         elif choice==4:
            delete_task()
         elif choice==5:
+            print("Thank you for using the To-Do List App. Goodbye!")
             break
         else:
             print("invalid choice. please try agine")
